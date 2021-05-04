@@ -3,8 +3,10 @@
 ### short term
 
 - Salmonella graph
-  - [ ] determine node coverage of xmfa vs pggb_5 vs pggb_250
-    - [ ] make table of "node,length,reads,num_reads_covering"
+  - [x] determine node coverage of xmfa vs pggb_5 vs pggb_250
+    - [x] make table of "node,length,reads,num_reads_covering"
+  - [ ] Test different SPAdes parameters with simulated reads: k 17,25,31?
+    - [ ] Get alignments, view in tubemaps - specifically nodes that don't align
 
 - Genesieve
   - [ ] Complete functionality testing on rice test set
