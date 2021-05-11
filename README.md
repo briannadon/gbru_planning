@@ -9,7 +9,7 @@
     - [ ] Coverage distribution of assembled contigs
     - [ ] Get alignments, view in tubemaps - specifically nodes that don't align
   - [ ] Compare graph with BWA
-    - [ ] Take direct assemblies and align to the source genome (CP004027.1) - uncovered areas?
+    - [ ] Take direct assemblies and align to the source genome (CP004027.1) - uncovered areas comparable to graphaligner?
     - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA?
 
 - Genesieve
