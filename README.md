@@ -13,6 +13,8 @@
     - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
 
 - Genesieve
+  - [ ] Obtain the Arabidopsis QTL data
+    - [ ] Use core api with gene list 
   - [x] Complete functionality testing on rice test set
     - [x] Fix genesieve env on genesieve server: numpy/gensim incompatibility issue
     - [x] Run full pipeline tests with hardcoded data
