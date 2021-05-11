@@ -9,8 +9,8 @@
     - [ ] Coverage distribution of assembled contigs
     - [ ] Get alignments, view in tubemaps - specifically nodes that don't align
   - [ ] Compare graph with BWA
-    - [ ] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to graphaligner?
-    - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA?
+    - [ ] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to source genome simulations?
+    - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
 
 - Genesieve
   - [x] Complete functionality testing on rice test set
