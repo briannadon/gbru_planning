@@ -21,7 +21,7 @@
     5) For each study...
         - Collect all SNPs
         - If many on one chromosome, do k-means of like 2 or 3
-        - get k-means boundaries by sorting clusters and getting beginning + end
+        - get k-means boundaries by sorting clusters, get centroid +-50kbp
         - use those as coordinates, obtain genes from gff 
   - [x] Complete functionality testing on rice test set
     - [x] Fix genesieve env on genesieve server: numpy/gensim incompatibility issue
