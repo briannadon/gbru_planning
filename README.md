@@ -14,11 +14,11 @@
 
 - Genesieve
   - [ ] Obtain the Arabidopsis QTL data
-    1. Get all associations by paging thru 25/100/1000 at a time, increasing offset to get next page
-    2. Get the phenotype desc with JSON parser
-    3. Get the SNP Chr/location with JSON parser
-    4. Write it down
-    5. For each study...
+    1) Get all associations by paging thru 25/100/1000 at a time, increasing offset to get next page
+    2) Get the phenotype desc with JSON parser
+    3) Get the SNP Chr/location with JSON parser
+    4) Write it down
+    5) For each study...
         - Collect all SNPs
         - If many on one chromosome, do k-means of like 2 or 3
         - get k-means boundaries by sorting clusters and getting beginning + end
