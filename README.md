@@ -13,7 +13,7 @@
     - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
 
 - Genesieve
-  - [ ] Obtain the Arabidopsis QTL data
+  - [x] Obtain the Arabidopsis QTL data
     1) Get all associations by paging thru 25/100/1000 at a time, increasing offset to get next page
     2) Get the phenotype desc with JSON parser
     3) Get the SNP Chr/location with JSON parser
