@@ -10,8 +10,8 @@
     - [x] Get alignments, view in tubemaps - specifically nodes that don't align
   - [o] Compare graph with BWA
     - [ ] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to source genome simulations?
-    - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
-      - [ ] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
+    - [x] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
+      - [o] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
 
 - Genesieve
   - [x] Obtain the Arabidopsis QTL data
