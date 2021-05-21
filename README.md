@@ -6,8 +6,8 @@
   - [x] determine node coverage of xmfa vs pggb_5 vs pggb_250
     - [x] make table of "node,length,reads,num_reads_covering"
   - [x] Test different SPAdes parameters with simulated reads: k 21,33,55
-    - [ ] Coverage distribution of assembled contigs
-    - [ ] Get alignments, view in tubemaps - specifically nodes that don't align
+    - [x] Coverage distribution of assembled contigs
+    - [x] Get alignments, view in tubemaps - specifically nodes that don't align
   - [o] Compare graph with BWA
     - [ ] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to source genome simulations?
     - [ ] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
