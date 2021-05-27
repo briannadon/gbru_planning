@@ -11,7 +11,8 @@
   - [o] Compare graph with BWA
     - [ ] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to source genome simulations?
     - [x] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
-      - [o] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
+      - [x] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
+        - Simulating more reads (1M/direction) showed 100% coverage in same-ref, with ~ 20kbp missing in MEM mode of GA. 
 
 - Genesieve
   - [x] Obtain the Arabidopsis QTL data
