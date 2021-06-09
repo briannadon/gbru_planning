@@ -13,6 +13,7 @@
     - [x] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
       - [x] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
         - Simulating more reads (1M/direction) showed 100% coverage in same-ref, with ~ 20kbp missing in MEM mode of GA. 
+  - [ ] Write up all above results
 
 - Genesieve
   - [x] Obtain the Arabidopsis QTL data
