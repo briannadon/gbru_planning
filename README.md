@@ -29,8 +29,9 @@
   - [x] Complete functionality testing on rice test set
     - [x] Fix genesieve env on genesieve server: numpy/gensim incompatibility issue
     - [x] Run full pipeline tests with hardcoded data
-  - [ ] Test and validate SQL queries
-    - [ ] incorporate into genesieve.py when finished
+  - [x] Test and validate SQL queries
+    - [x] incorporate into genesieve.py when finished
+  - [ ] Fix issue with QTL <-> coexpression linking (line ~123 of genesieve) 
   - [ ] Create a validation test
     - Using our test set, pull regions (~300kbp either side?) around "true" genes. Generate distribution of scores. Where is the 'true' gene? Now generate a random region with a random trait. What's that distribution? How do they differ? "true" value minus the median of the "false" values
     - Homology: what if there are tandem dupes? How many validated genes have tandem dupes/copies conflating results? see how many - if it's like 50% then mask them in test set
