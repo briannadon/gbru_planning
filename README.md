@@ -12,7 +12,8 @@
     - [x] Take simulated reads of the 4 non-ref genomes -> assemble -> align to the source genome (CP004027.1) - uncovered areas comparable to source genome simulations?
     - [x] How much of CP004027.1 is not covered when you align the same assembled simulated reads to it with BWA? Compare to GraphAligner
       - [x] Some reads are legitimately unmapped in both. Might just be missing in simulated set. Need to simulate more reads.
-        - Simulating more reads (1M/direction) showed 100% coverage in same-ref, with ~ 20kbp missing in MEM mode of GA. 
+        - Simulating more reads (1M/direction) showed 100% coverage in same-ref, with ~ 20kbp missing in MEM mode of GA.
+    - [ ] profile the reads missing in 5,10,15,20,25 line graph 
   - [ ] Write up all above results
 
 - Genesieve
@@ -36,6 +37,8 @@
     - Using our test set, pull regions (~300kbp either side?) around "true" genes. Generate distribution of scores. Where is the 'true' gene? Now generate a random region with a random trait. What's that distribution? How do they differ? "true" value minus the median of the "false" values
     - Homology: what if there are tandem dupes? How many validated genes have tandem dupes/copies conflating results? see how many - if it's like 50% then mask them in test set
         - Check to see how often a validated candidate gene has duplicated genes next to/near it in the ~500kbp either side region.
+
+
 
 ### secondary 
 
